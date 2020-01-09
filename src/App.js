@@ -27,8 +27,8 @@ function App() {
           <div style={{ background: '#fff', padding: 24, minHeight: 380 }}>
             <Switch>
               {/* <Route exact path="/" component={Home} /> */}
-              {/* <Route exact path="/" component={WildPokemonList} /> */}
-              <Route path="/rtp-redux/wild-pokemon-list" component={WildPokemonList} />
+              <Route exact path="/rtp-redux" component={WildPokemonList} />
+              <Route  path="/rtp-redux/wild-pokemon-list" component={WildPokemonList} />
               <Route path="/rtp-redux/wild-pokemon-detail/:id" component={WildPokemonDetail} />
               <Route path="/rtp-redux/my-pokemon-list" component={MyPokemonList} />
             </Switch>
